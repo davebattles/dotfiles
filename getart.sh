@@ -43,7 +43,7 @@ google_image="${dir}/${file}"
 #    done
 #    google_image="${google_image}(${i})${ext}"
 #else
-    google_image="${google_image}${ext}"  # ONLY, it rewrites the image
+    google_image="${google_image}.jpg"  # ONLY, it rewrites the image
 #fi
 
 # get actual picture and store in google_image.$ext
