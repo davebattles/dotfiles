@@ -26,7 +26,7 @@ ext=$(echo $imagelink | sed "s/.*\(\.[^\.]*\)$/\1/")
 
 # set default save location and file name change this!!
 dir="$PWD"
-file="${mpccurrent}"
+file="${mpccurrent}" 
 
    
 
