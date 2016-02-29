@@ -43,7 +43,8 @@ google_image="${dir}/${file}"
 #    done
 #    google_image="${google_image}(${i})${ext}"
 #else
-    google_image="${google_image}.jpg"  # ONLY, it rewrites the image
+    google_image="${google_image}.jpg"  # Commented the ability to save multiple files with appended number,
+    # with a .jpg extension
 #fi
 
 # get actual picture and store in google_image.$ext
